@@ -8,8 +8,6 @@ import VideoDetail from './components/video_detail'
 
 const API_KEY = 'AIzaSyAZiyob69Tc8L69z-426D3BN6TbtIBnaiE';
 
-// Create a new component. This component should produce
-// some HTML
 class App extends Component {
     constructor(props) {
         super(props);
@@ -46,7 +44,4 @@ class App extends Component {
     }
 }
 
-
-// Take this component's generated HTML and put it
-// on the page (in the DOM)
 ReactDOM.render(<App />, document.querySelector('.container'));
